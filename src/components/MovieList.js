@@ -3,7 +3,6 @@ import Moment from 'react-moment';
 import { StarFill } from 'react-bootstrap-icons';
 
 const MovieList = (props) => {
-
 	return (
 		<>
             {props.movies && props.movies.map((movie => (
@@ -25,9 +24,6 @@ const MovieList = (props) => {
 
                 </div>
             )))}
-
-
-  
         </>
     );
 };
